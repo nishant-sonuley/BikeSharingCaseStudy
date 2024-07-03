@@ -1,5 +1,5 @@
 # Bike Sharing Case Study
-> Outline a brief description of your project.
+> This case study aims to predict the demand for shared bikes using linear regression.
 
 
 ## Table of Contents
@@ -11,38 +11,37 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Background: The bike-sharing service provides bicycles for short-term use at a fee. The company, BoomBikes, experienced a revenue drop due to the COVID-19 pandemic and wants to understand factors affecting bike demand to improve their business strategy post-pandemic.
+- Business Problem: The goal is to predict the demand for shared bikes and identify significant factors influencing this demand to help the company plan and meet customer needs better.
+- Dataset: The dataset used is day.csv, which contains daily records of bike rentals along with various features such as weather conditions, seasons, and user types.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Demand for shared bikes varies significantly across different seasons.
+- Weather conditions, such as temperature and humidity, play a crucial role in determining bike demand.
+- The year variable indicates an increasing trend in bike demand, reflecting growing popularity.
+- The number of registered users has a more significant impact on total demand compared to casual users.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas - version 1.2.4
+- numpy - version 1.20.1
+- seaborn - version 0.11.1
+- matplotlib - version 3.3.4
+- scikit-learn - version 0.24.1
+- statsmodels - version 0.12.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Upgrad
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by @nishant-sonuley
 
 
 <!-- Optional -->
